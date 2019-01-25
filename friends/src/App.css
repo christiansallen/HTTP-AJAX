@@ -1,0 +1,69 @@
+.App {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "ubuntu";
+  font-size: 62.5%;
+}
+
+.header {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.friends-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friend {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.add-friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.add-friend h1 {
+  font-size: 1.9rem;
+}
+
+.add-friend-form {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.friend-input {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  width: 25%;
+}
+
+.add-button {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.friend-buttons {
+  margin-top: 10px;
+  display: flex;
+}
+
+.friend-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
